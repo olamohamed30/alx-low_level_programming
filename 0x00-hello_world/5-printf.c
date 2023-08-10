@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
-* main  Start the program
+* main - Start the program
+*
 * Description: Output a sintence
+*
 * Return: 0 if right
 */
 int main(void)
