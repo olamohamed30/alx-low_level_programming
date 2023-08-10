@@ -8,6 +8,6 @@
 int main(void)
 {
 char *mess = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-write(2, mess, strlen(message));
+write(2, mess, strlen(mess));
 return (1);
 }
