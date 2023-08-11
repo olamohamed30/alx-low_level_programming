@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
 * main -Start the program
 * Description: Output a sintence if n is +ve ,-ve,zero
