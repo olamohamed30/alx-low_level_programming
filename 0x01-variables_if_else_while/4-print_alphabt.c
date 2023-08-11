@@ -12,7 +12,10 @@ char letter = 'a';
 while (letter <= 'z')
 {
 if (letter == 'e' || letter == 'q')
+{
+letter++;
 continue;
+}
 putchar(letter); /* Print letter */
 letter++; /* next letter */
 }
