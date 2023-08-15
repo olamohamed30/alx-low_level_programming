@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main- entry to program
- *Return : 0 if right
+ *Return: 0 if successful, other value otherwise.
  */
 int main(void)
 {
