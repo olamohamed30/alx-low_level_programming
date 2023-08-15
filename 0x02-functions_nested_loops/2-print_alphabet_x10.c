@@ -10,6 +10,6 @@ for (i = 0; i < 10 ; i++)
 {
 for (cha = 'a'; cha <= 'z'; cha++)
 _putchar(cha);
-}
 _putchar('\n');
+}
 }
