@@ -1,4 +1,4 @@
-##include "main.h"
+#include "main.h"
 
 /**
  *add- Prints the sum of 2 num
