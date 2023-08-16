@@ -7,8 +7,8 @@
 int main(void)
 {
 int  n1 = 1, n2 = 2;
-printf("%d, %d", n1, n2);
 int i;
+printf("%d, %d", n1, n2);
 for (i = 3; i <= 50; i++)
 {
 int ne = n1 + n2;
