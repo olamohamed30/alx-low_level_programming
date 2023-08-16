@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-int  n1 = 1, n2 = 2;
+long int  n1 = 1, n2 = 2;
 int i;
-printf("%d, %d", n1, n2);
+printf("%ld, %ld", n1, n2);
 for (i = 3; i <= 50; i++)
 {
-int ne = n1 + n2;
-printf(", %d", ne);
+long int ne = n1 + n2;
+printf(", %ld", ne);
 n1 = n2;
 n2 = ne;
 }
