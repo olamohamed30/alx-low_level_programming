@@ -12,7 +12,7 @@ int l = 0;
 char tem;
 while (s[l] != '\0')
 {
-len++;
+l++;
 }
 
 end = l - 1;
