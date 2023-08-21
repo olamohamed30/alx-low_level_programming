@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * print_array - Prints n elements of an array.
  * @a: Point array.
