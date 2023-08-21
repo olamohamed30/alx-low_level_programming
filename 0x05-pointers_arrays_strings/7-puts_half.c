@@ -19,7 +19,7 @@ beg = l / 2;
 }
 else
 {
-beg = (l - 1) / 2;
+beg = (l + 1) / 2;
 }
 
 while (str[beg] != '\0')
