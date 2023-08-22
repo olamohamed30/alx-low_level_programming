@@ -7,11 +7,11 @@ int main(void)
 	    char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 	        int l = 10;
 		    int randomIndex;
-		        int i;
+		        int in;
 
 			    srand(time(NULL));
 
-			        for (i = 0; i < l; i++) 
+			        for (in = 0; in < l; in++) 
 					    {
 						            randomIndex = rand() % (sizeof(charset) - 1);
 							            printf("%c", charset[randomIndex]);
@@ -19,4 +19,3 @@ int main(void)
 				    printf("\n");
 				        return 0;
 }
-
