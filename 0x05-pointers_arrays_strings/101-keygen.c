@@ -11,7 +11,7 @@ int main(void)
 
 			    srand(time(NULL));
 
-			        for (i = 0; i < le; i++) 
+			        for (i = 0; i < l; i++) 
 					    {
 						            randomIndex = rand() % (sizeof(charset) - 1);
 							            printf("%c", charset[randomIndex]);
