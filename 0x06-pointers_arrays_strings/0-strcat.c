@@ -1,29 +1,27 @@
-nclude "main.h"
+#include "main.h"
 
 /**
- *  * _strcat - 2 strings toghrter.
- *   * @s1: The destination string.
- *    * @s2: The source string.
- *     * Return: A pointer  string dest.
-   */
-char *_strcat(char *s1, char *s2)
+ *  * _strcat - Concat two strings
+ *   * @dest: The main string to be edited
+ *    * @src: The string to append to dest
+ *     * Return: A pointer to the resulting string dest
+      */
+char *_strcat(char *dest, char *src)
 {
-	int destI = 0;
-	int srcI = 0;
+int destI = 0;
+int srcI = 0;
 
-	while (s1[destI] != '\0')
-	{
-		destI++;
-	}
+		    /* Find the terminating null byte of dest */
+while (dest[destI])
+destI++;
 
-	while (s2[srcI] != '\0')
-	{
-		s1[destI] = s2[srcI];
-		srcI++;
-		destI++;
-	}
+while (src[srcI])
+{
+dest[destI] = src[srcI];
+srcI++;
+destI++;
+}
+dest[destI] = '\0';
 
-	s1[destI] = '\0';
-
-	return (s1);
+return (dest);
 }
