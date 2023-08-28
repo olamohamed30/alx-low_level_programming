@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h> 
 
 /**
  *  * _strchr-  memory with  byte.
