@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stddef.h>
+
 /**
- *  *_strstr-  memory with  byte.
- *   *  @haystack: Con byte.
- *    *  @needle: Num of bytes .
- *     * Return: dest.
+ *_strstr-  memory with  byte.
+ *@haystack: Con byte.
+ *@needle: Num of bytes .
+ *Return: dest.
    */
 
 char *_strstr(char *haystack, char *needle)
