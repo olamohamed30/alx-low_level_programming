@@ -23,7 +23,7 @@ int _strlenrec(char *s)
 {
 	if (*s == '\0')
 		return (0);
-	return (1 + _strlenrecu(s + 1));
+	return (1 + _strlenrec(s + 1));
 }
 
 /**
@@ -35,7 +35,7 @@ int _strlenrec(char *s)
  */
 int palindromehelp(char *s, int sta, int end)
 {
-	if (start >= end)
+	if (sta >= end)
 		return (1);
 	if (s[sta] != s[end])
 		return (0);
