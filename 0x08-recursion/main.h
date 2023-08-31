@@ -13,4 +13,6 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int helper(int n, int curr);
 int helpp(int n, int curr);
+int _strlenrec(char *s);
+int palindromehelp(char *s, int sta, int end);
 #endif
