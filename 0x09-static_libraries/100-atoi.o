@@ -1,0 +1,31 @@
+#include "main.h"
+
+/**
+ * _atoi - con a string to an int
+ * @s: string to be con
+ * Return: the int cond string
+ */
+int _atoi(char *s)
+{
+	int sig = 1;
+	int res = 0;
+	int started = 0;
+
+	while (*s)
+	{
+		if (*s == '-')
+			sig *= -1;
+
+		if (*s >= '0' && *s <= '9')
+		{
+			res = res * 10 + (*s - '0') * sig;
+			started = 1;
+		}
+		else if (started)
+			break;
+
+		s++;
+	}
+
+	return res;
+}
