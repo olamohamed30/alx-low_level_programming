@@ -31,7 +31,7 @@ int **alloc_grid(int width, int height)
 		}
 
 		for (jn = 0; jn < width; jn++)
-			grid[in][jn] = 0;
+			mat[in][jn] = 0;
 	}
 
 	return (mat);
