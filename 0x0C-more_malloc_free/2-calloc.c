@@ -9,15 +9,17 @@
       */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
+	unsigned int i;
+	char *allp;
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 
-	char *allp = malloc(nmemb * size);
+	allp = malloc(nmemb * size);
 
 	if (!allp)
 		return (NULL);
 
-	for (unsigned int i = 0; i < nmemb * size; i++)
+	for (i = 0; i < nmemb * size; i++)
 	{
 		allp[i] = 0;
 	}
