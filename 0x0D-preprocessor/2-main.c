@@ -1,10 +1,11 @@
 #include <stdio.h>
 /**
  * main -  variable of type struct
- *      * Description: structure to store
+ * Description: structure to store
+ * Return :zer
      */
 int main(void)
 {
-       	printf("%s\n", __FILE__);
-	return (0);
+rintf("%s\n", __FILE__);
+return (0);
 }
