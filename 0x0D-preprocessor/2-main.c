@@ -2,7 +2,7 @@
 /**
  * main -  variable of type struct
  * Description: structure to store
- * Return :zer
+ * Return: void
      */
 int main(void)
 {
