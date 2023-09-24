@@ -1,6 +1,12 @@
 #include "lists.h"
 #include <stdio.h>
 
+/**
+ * print_list - Print elements of a list
+ * @p: Point to beg  list.
+ * Return: count  of nodes
+ */
+
 size_t print_list(const list_t *p)
 {
 	size_t c = 0;
@@ -15,5 +21,5 @@ size_t print_list(const list_t *p)
 		c++;
 		p = p->next;
 	}
-	return c;
+	return (c);
 }
