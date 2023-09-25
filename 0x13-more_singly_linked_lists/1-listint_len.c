@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * listint_len - it is a singly linked list
- * @h: int 
+ * @h: int
  * Return: count of  node
  */
 
