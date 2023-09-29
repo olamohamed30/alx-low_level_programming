@@ -2,7 +2,7 @@
 
 /**
  * print_binary- it is a singly linked list
- * @n: int 
+ * @n: int
  */
 void print_binary(unsigned long int n)
 {
@@ -17,7 +17,7 @@ void print_binary(unsigned long int n)
 		{
 			_putchar('1');
 			st = 1;
-		} 
+		}
 		else if (st)
 		{
 			_putchar('0');
