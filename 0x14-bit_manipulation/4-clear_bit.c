@@ -3,12 +3,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * clear_bit - sets the vahjhkj,nkjnjk
+ * set_bit - sets the vahjhkj,nkjnjk
  * @n: pointjnmhjmhe number
  * @indx: index,hjkjjk,.
  * Return: 1 ijijk,mbtcfv
  */
-int clear_bit(unsigned long int *n, unsigned int indx)
+int set_bit(unsigned long int *n, unsigned int indx)
 {
 	unsigned long int m;
 
@@ -16,6 +16,6 @@ int clear_bit(unsigned long int *n, unsigned int indx)
 		return (-1);
 
 	m = 1UL << indx;
-	*n = *n & m;
+	*n = *n | m;
 	return (1);
 }
