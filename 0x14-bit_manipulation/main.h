@@ -14,5 +14,18 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m);
 int get_endianness(void);
 int _putchar(char c);
 
+/**
+ * union Endian - Usedxncjhdshcsdls machine
+ * @index: unsigned jhhgfghjlkjhg
+ * @cola: unsigned jhguilkjhg
+ *
+ * Description: A unionkjhgsasdfghjl endianness.
+ */
+union Endian
+{
+	unsigned int index;
+	unsigned char cola[sizeof(int)];
+};
+
 #endif
 
